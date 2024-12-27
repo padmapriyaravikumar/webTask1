@@ -1,0 +1,55 @@
+body
+{
+  background-repeat: no-repeat;
+  background-image:linear-gradient(rgba(193,241,255,0.65),rgba(9,0,77,0.65)), url("https://www.ekeralatourism.net/wp-content/uploads/2018/12/may3.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+ 
+}
+.list1
+{
+ display: flex;
+  gap: 50px;
+}
+a{
+  color:white;
+  font-weight: bolder;
+  font-size: 20px;
+  text-decoration: none;
+  z-index:1;
+}
+.whole{
+  display: flex;
+  align-items: center;
+  gap:350px;
+ 
+}
+nav span{
+position: absolute;
+width:110px;
+height:40px;
+background-color: rgba(0,0,255);
+border-radius: 8px;
+transition: .5s;
+
+}
+nav a:nth-child(1):hover~span{
+  left:1000x;
+ 
+}
+nav a:nth-child(2):hover~span{
+  left:830px;
+  width:130px;
+}
+nav a:nth-child(3):hover~span{
+  left:1000px;
+}
+nav a:nth-child(4):hover~span{
+  left:1130px;
+}
+.search
+{
+  display: flex;
+  gap:40px;
+}
+
